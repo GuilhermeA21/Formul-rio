@@ -1,0 +1,136 @@
+<! DOCTYPE html >
+< html  lang = " pt-br " >
+  < head >
+    <! - Meta tags Obrigatórias ->
+    < meta  charset = " utf-8 " >
+    < meta  name = " viewport " content = " width = device-width, initial-scale = 1, shrink-to-fit = no " >
+
+    <! - CSS de inicialização ->
+    < Vínculo  rel = " stylesheet " href =" https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css " integridade =" SHA384-MCw98 / SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO " crossorigin =" anonymous " >
+	
+	< link  href = " css / bootstrap-reboot.css " rel = " stylesheet " >
+	< link  href = " css / bootstrap.css " rel = " stylesheet " >
+	< link  href = " css / bootstrap-grid.css " rel = " stylesheet " >
+	
+	
+	< link  href = " css / estiloform1.css " rel = " stylesheet " >
+
+    < title > Aprendizado para o seu futuro </ title >
+	  </ head >
+  < corpo >
+  
+		< form  action = " cadatrar.php "   class = " campos " method = " post " >
+			< rótulo > Nome
+			< input  type = " text " name = " Nome " maxlength = " 30 " >
+			</ label >
+			< etiqueta >
+			< input  type = " reset " value = " limpar " >
+			</ label >
+			< Br >
+			< label > Sobrenome
+			< input  type = " text " name = " Sobrenome " >
+			</ label >
+			< etiqueta >
+			< input  type = " reset " value = " limpar " >
+			</ label >
+		</ form >
+		< Br >
+	
+		< form   name = " login " action = " # " class = " login " method = " post " >
+			< etiqueta > Usuário
+			< input  type = " text " name = " user " tabindex = " 1 " size = " 15 " class = " campos " >
+			</ input >
+			</ label >
+			
+			< label > Senha:
+			< input  type = " password " name = " senha " tabindex = " 1 " size = " 15 " class = " campos " >
+			< input  type = " submit " name = " submit " value = " Enviar " tabindex = " 3 " >
+			< input  type = " submit " name = " reset " value = " Cancelar " tabindex = " 3 " >
+			</ input >
+			</ input >
+			</ label >
+			< Br >
+			< etiqueta >
+			< input  type = " radio " name = " tipo " tabindex = " 1 " size = " 15 " class = " campos " value = " PF " > Pessoa Física
+			</ label >
+			< Br >
+			< etiqueta >
+			< input  type = " radio " name = " tipo " tabindex = " 1 " size = " 15 " class = " campos " value = " PJ " > Pessoa Jurídica
+			</ label >
+			< Br >
+			< Br >
+			< etiqueta > possuir documento
+			< input  type = " checkbox " name = " cnh " tabindex = " 1 " size = " 15 " class = " campos " >
+			</ label >
+			< Br >
+			< etiqueta > possui Passaporte
+			< input  type = " checkbox " name = " passaporte " tabindex = " 1 " size = " 15 " class = " campos " >
+			</ label >
+			< Br >
+			< Br >
+			< form  method = " post " action = " # " >
+				< textarea  name = " obs " rows = " 4 " cols = " 50 " > Observações ... </ textarea >
+				< input  type = " submit " name = " submit " value = " Enviar " tabindex = " 3 " >
+				< input  type = " submit " name = " reset " value = " Cancelar " tabindex = " 3 " >
+			
+			< Br >
+			< Br >
+			< etiqueta > Escolha o idioma
+			< selecionar  nome = " País " múltiplo = " múltiplo " >
+				< option  value = " 1 " > Português </ option >
+				< option  value = " 1 " > Espanhol </ option >
+				< option  value = " 1 " > Inglês </ option >
+				< option  value = " 1 " > Francês</ option >
+			</ select >
+			</ label >
+	
+		< Br >
+		< Br >
+		< form  name = " login " method = " post " action = " # " class = " login " >
+			< label > Envie sua Foto:
+				< input  type = " file " name = " foto " accept = " image / * " >
+			</ label >
+	</ form >
+	< Br >
+	< Br >
+	< h1 > Formulário de Login </ h1 >
+	< form  action = " contato.php " class = " form1 " method = " post " >
+	< fieldset >
+		< legenda > Informe seu email e Assunto </ legend >
+		< div >
+			< etiqueta > E-mail:
+				< input  type = " text " name = " email " >
+			</ label >
+		</ div >
+		< div >
+			< etiqueta > Assunto:
+				< selecionar  nome = " assunto " >
+					< opção > Compras </ opção >
+					< opção > Sugestões </ opção >
+				</ select >
+			</ label >
+			</ div >
+			< div >
+				< etiqueta > Mensagem:
+					< textarea  name = " mensagem " >Dias fracos fazem pessoas fortes </ textarea >
+				</ label >
+			</ div >
+			< input  type = " submit " name = " submit " value = " Efetuar login " >
+			< input  type = " reset " name = " reset " value = " Cancelar " >
+			</ fieldset >
+			</ form >
+	</ form >
+	
+	
+	
+	
+	
+	
+	
+	 <! - JavaScript (opcional) ->
+    <! - jQuery primeiro, depois Popper.js, depois Bootstrap JS ->
+    < Roteiro  src = " https://code.jquery.com/jquery-3.3.1.slim.min.js " integridade =" SHA384-Q8i / X + 965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH + 8abtTE1Pi6jizo " crossorigin =" anonymous " > </ script de >
+    < Roteiro  src = " https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integridade =" SHA384-ZMP7rVo3mIykV + 2 + 9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK / l8WvCWPIPm49 " crossorigin = " anônimo " > </ script >
+    < Roteiro  src = " https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integridade =" SHA384-ChfqqxuZUCnJSK3 + MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW / JmZQ5stwEULTy " crossorigin =" anonymous " > </ script de >
+  </ body >
+</ html >
